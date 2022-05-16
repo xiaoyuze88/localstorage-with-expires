@@ -1,0 +1,25 @@
+{
+	"include": [
+		"src",
+		"global.d.ts"
+	],
+	"compilerOptions": {
+		"target": "es5",
+		"module": "commonjs",
+		"lib": [
+			"es2017",
+			"dom"
+		],
+		"outDir": "./dist",
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"declaration": true,
+		"importHelpers": true,
+		"sourceMap": true,
+		"downlevelIteration": true,
+		"resolveJsonModule": true,
+		"forceConsistentCasingInFileNames": true,
+		"allowJs": true
+	}
+}

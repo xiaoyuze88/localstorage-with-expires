@@ -1,0 +1,23 @@
+{
+	"name": "localstorage-with-expires",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "rm -rf lib && npx tsc -p tsconfig.json -t es5 --outDir lib  --watch",
+		"build:lib": "rm -rf lib && npx tsc -p tsconfig.json -t es5 --outDir lib"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/xiaoyuze88/localstorage-with-expires.git"
+	},
+	"files": [
+		"lib/**"
+	],
+	"author": "xiaoyuze88@gmail.com",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/xiaoyuze88/localstorage-with-expires/issues"
+	},
+	"homepage": "https://github.com/xiaoyuze88/localstorage-with-expires#readme"
+}
