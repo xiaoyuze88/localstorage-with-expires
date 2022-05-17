@@ -1,8 +1,8 @@
 {
 	"name": "localstorage-with-expires",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "",
-	"main": "index.js",
+	"main": "lib/index.js",
 	"scripts": {
 		"dev": "rm -rf lib && npx tsc -p tsconfig.json -t es5 --outDir lib  --watch",
 		"build:lib": "rm -rf lib && npx tsc -p tsconfig.json -t es5 --outDir lib"
